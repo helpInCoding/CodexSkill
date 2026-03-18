@@ -1,0 +1,4 @@
+interface:
+  display_name: "DB Start Stop"
+  short_description: "Start/stop DB and PDBs safely"
+  default_prompt: "Use $db-start-stop to stop/start the database and open/close PDBs safely."

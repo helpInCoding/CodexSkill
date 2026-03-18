@@ -1,0 +1,27 @@
+git clone ssh://sachin.padha%40oracle.com@alm.oraclecorp.com/systest_ststest-codex_124948/systest-codex.git --branch develop
+cd systest-codex/skills/area
+mkdir database_generic
+git status
+git add database_generic
+git commit -m "add new skill for DB start stop, PDB create"
+git push
+
+
+
+download the above code and copied to $CODEX_HOME/skills/db-start-stop
+
+
+Prompts, below 3 samples can be used for the db-start-stop skill:
+
+1) use skills db-start-stop, drop pdb lspdb3
+ 
+
+DB server:slc48admvm02.us.oracle.com 
+ oracle home : /u01/app/oracle/product/23/dbhome_1
+DB name: ORCLVM
+connect as oracle user
+
+
+2) Bounce the DB using above parameters
+
+3) Create a NEW PDB lspdbtest using sample command and above parameters: create pluggable database lspdb1 admin user lshop identified by lshop_1
