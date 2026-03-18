@@ -1,13 +1,3 @@
-git clone ssh://sachin.padha%40oracle.com@alm.oraclecorp.com/systest_ststest-codex_124948/systest-codex.git --branch develop
-cd systest-codex/skills/area
-mkdir database_generic
-git status
-git add database_generic
-git commit -m "add new skill for DB start stop, PDB create"
-git push
-
-
-
 download the above code and copied to $CODEX_HOME/skills/db-start-stop
 
 
@@ -16,9 +6,9 @@ Prompts, below 3 samples can be used for the db-start-stop skill:
 1) use skills db-start-stop, drop pdb lspdb3
  
 
-DB server:slc48admvm02.us.oracle.com 
+DB server:test.us.advm01.com 
  oracle home : /u01/app/oracle/product/23/dbhome_1
-DB name: ORCLVM
+DB name: ORClTEST
 connect as oracle user
 
 
@@ -26,17 +16,3 @@ connect as oracle user
 
 3) Create a NEW PDB lspdbtest using sample command and above parameters: create pluggable database lspdb1 admin user lshop identified by lshop_1
 
-
-cd /Users/spadha/OneDrive - Oracle Corporation/work/D_Drive/IDC/codexMacBook/Skills
-
-spadha@spadha-mac Skills % git init
-Reinitialized existing Git repository in /Users/spadha/Library/CloudStorage/OneDrive-OracleCorporation/work/D_Drive/IDC/codexMacBook/Skills/.git/
-spadha@spadha-mac Skills % git remote add origin git@github.com:helpInCoding/CodexSkill.git
-spadha@spadha-mac Skills % git remote -v
-spadha@spadha-mac Skills % git status
-spadha@spadha-mac Skills % git add db-start-stop 
-spadha@spadha-mac Skills % git add info_skill.txt 
-spadha@spadha-mac Skills % git commit -m "adding new skill for Codex"
-spadha@spadha-mac Skills % git push -u origin main or git push
-
-spadha@spadha-mac Skills % git push -u origin main
