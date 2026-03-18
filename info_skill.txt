@@ -37,15 +37,6 @@ spadha@spadha-mac Skills % git status
 spadha@spadha-mac Skills % git add db-start-stop 
 spadha@spadha-mac Skills % git add info_skill.txt 
 spadha@spadha-mac Skills % git commit -m "adding new skill for Codex"
-On branch main
-nothing to commit, working tree clean
-spadha@spadha-mac Skills % git push
-fatal: The current branch main has no upstream branch.
-To push the current branch and set the remote as upstream, use
-
-    git push --set-upstream origin main
-
-To have this happen automatically for branches without a tracking
-upstream, see 'push.autoSetupRemote' in 'git help config'.
+spadha@spadha-mac Skills % git push -u origin main or git push
 
 spadha@spadha-mac Skills % git push -u origin main
