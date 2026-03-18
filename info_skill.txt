@@ -25,3 +25,25 @@ connect as oracle user
 2) Bounce the DB using above parameters
 
 3) Create a NEW PDB lspdbtest using sample command and above parameters: create pluggable database lspdb1 admin user lshop identified by lshop_1
+
+
+cd /Users/spadha/OneDrive - Oracle Corporation/work/D_Drive/IDC/codexMacBook/Skills
+
+spadha@spadha-mac Skills % git init
+Reinitialized existing Git repository in /Users/spadha/Library/CloudStorage/OneDrive-OracleCorporation/work/D_Drive/IDC/codexMacBook/Skills/.git/
+spadha@spadha-mac Skills % git remote add origin git@github.com:helpInCoding/CodexSkill.git
+spadha@spadha-mac Skills % git add db-start-stop 
+spadha@spadha-mac Skills % git add info_skill.txt 
+spadha@spadha-mac Skills % git commit -m "adding new skill for Codex"
+On branch main
+nothing to commit, working tree clean
+spadha@spadha-mac Skills % git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+spadha@spadha-mac Skills % git push -u origin main
