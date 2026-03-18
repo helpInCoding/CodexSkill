@@ -32,6 +32,8 @@ cd /Users/spadha/OneDrive - Oracle Corporation/work/D_Drive/IDC/codexMacBook/Ski
 spadha@spadha-mac Skills % git init
 Reinitialized existing Git repository in /Users/spadha/Library/CloudStorage/OneDrive-OracleCorporation/work/D_Drive/IDC/codexMacBook/Skills/.git/
 spadha@spadha-mac Skills % git remote add origin git@github.com:helpInCoding/CodexSkill.git
+spadha@spadha-mac Skills % git remote -v
+spadha@spadha-mac Skills % git status
 spadha@spadha-mac Skills % git add db-start-stop 
 spadha@spadha-mac Skills % git add info_skill.txt 
 spadha@spadha-mac Skills % git commit -m "adding new skill for Codex"
